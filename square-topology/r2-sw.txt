@@ -17,7 +17,7 @@ router ospf6 1
  exit
 !
 interface template1
- no r2 ospf template
+ description r2 ospf template
  lldp enable
  vrf forwarding inet
  ipv4 address dynamic dynamic

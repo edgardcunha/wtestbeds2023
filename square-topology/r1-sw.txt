@@ -1,0 +1,45 @@
+!!!!!!!!!!!!!!
+!!! R1 config
+!!!!!!!!!!!!!!
+!
+router ospf4 1
+ vrf inet
+ router-id 10.4.1.1
+ area 0 enable
+ redistribute connected
+ exit
+!
+router ospf6 1
+ vrf inet
+ router-id 10.6.1.1
+ area 0 enable
+ redistribute connected
+ exit
+!
+interface template1
+ no description
+ lldp enable
+ vrf forwarding inet
+ ipv4 address dynamic dynamic
+ ipv6 address dynamic dynamic
+ router ospf4 1 enable
+ router ospf6 1 enable
+ shutdown
+ no log-link-change
+ exit
+!
+int lo0
+ vrf for inet
+ ipv4 addr 20.20.20.1 /32
+ ipv6 addr 2020::1 /128
+ exit
+!
+interface ethernet1
+ description r1@eth1 -> r2@eth1
+ vrf forwarding inet
+ ipv4 address 1.1.1.1 /24
+ ipv6 address 1111::1 /64
+ template template1
+ no shutdown
+ exit
+!

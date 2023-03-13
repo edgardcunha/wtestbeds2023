@@ -17,7 +17,7 @@ router ospf6 1
  exit
 !
 interface template1
- no description
+ description r1 ospf template
  lldp enable
  vrf forwarding inet
  ipv4 address dynamic dynamic
@@ -35,10 +35,19 @@ int lo0
  exit
 !
 interface ethernet1
- description r1@eth1 -> r2@eth1
+ description r1@eth1 -> r2@eth2
  vrf forwarding inet
  ipv4 address 1.1.1.1 /24
  ipv6 address 1111::1 /64
+ template template1
+ no shutdown
+ exit
+!
+interface ethernet2
+ description r1@eth2 -> r4@eth2
+ vrf forwarding inet
+ ipv4 address 4.4.4.2 /24
+ ipv6 address 4444::2 /64
  template template1
  no shutdown
  exit

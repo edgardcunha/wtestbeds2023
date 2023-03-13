@@ -34,8 +34,8 @@ int lo0
  ipv6 addr 2020::4 /128
  exit
 !
-interface ethernet1
- description r4@eth1 -> r1@eth2
+interface ethernet2
+ description r4@eth2 -> r1@eth3
  vrf forwarding inet
  ipv4 address 4.4.4.1 /24
  ipv6 address 4444::1 /64
@@ -43,8 +43,8 @@ interface ethernet1
  no shutdown
  exit
 !
-interface ethernet2
- description r4@eth2 -> r3@eth1
+interface ethernet3
+ description r4@eth3 -> r3@eth2
  vrf forwarding inet
  ipv4 address 3.3.3.2 /24
  ipv6 address 3333::2 /64

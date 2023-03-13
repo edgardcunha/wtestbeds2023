@@ -44,7 +44,7 @@ interface ethernet1
  exit
 !
 interface ethernet2
- description r1@eth2 -> r4@eth2
+ description r1@eth2 -> r4@eth1
  vrf forwarding inet
  ipv4 address 4.4.4.2 /24
  ipv6 address 4444::2 /64

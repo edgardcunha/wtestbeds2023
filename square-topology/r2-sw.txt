@@ -4,7 +4,7 @@
 !
 router ospf4 1
  vrf inet
- router-id 10.4.2.2
+ router-id 10.2.2.2
  area 0 enable
  redistribute connected
  exit
@@ -23,15 +23,20 @@ interface template1
  ipv4 address dynamic dynamic
  ipv6 address dynamic dynamic
  router ospf4 1 enable
+ router ospf4 1 area 0
  router ospf6 1 enable
+ router ospf6 1 area 0
  shutdown
  no log-link-change
  exit
 !
 int lo0
- vrf for inet
- ipv4 addr 20.20.20.2 /32
- ipv6 addr 2020::2 /128
+ description loopback for ospf
+ vrf forwarding inet
+ ipv4 address 20.20.20.2 /32
+ ipv4 address 2020::2 /128
+ template template1
+ no shutdown
  exit
 !
 interface ethernet3

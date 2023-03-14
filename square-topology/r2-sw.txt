@@ -3,6 +3,7 @@
 !!!!!!!!!!!!!!
 !
 vrf definition v1
+ exit
 !
 router ospf4 1
  vrf v1

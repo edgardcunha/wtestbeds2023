@@ -2,15 +2,17 @@
 !!! R2 config
 !!!!!!!!!!!!!!
 !
+vrf definition v1
+!
 router ospf4 1
- vrf inet
+ vrf v1
  router-id 10.2.2.2
  area 0 enable
  redistribute connected
  exit
 !
 router ospf6 1
- vrf inet
+ vrf v1
  router-id 10.6.2.2
  area 0 enable
  redistribute connected
@@ -19,7 +21,7 @@ router ospf6 1
 interface template1
  description r2 ospf template
  lldp enable
- vrf forwarding inet
+ vrf forwarding v1
  ipv4 address dynamic dynamic
  ipv6 address dynamic dynamic
  router ospf4 1 enable
@@ -32,7 +34,7 @@ interface template1
 !
 int lo0
  description loopback for ospf
- vrf forwarding inet
+ vrf forwarding v1
  ipv4 address 20.20.20.2 /32
  ipv4 address 2020::2 /128
  template template1
@@ -41,7 +43,7 @@ int lo0
 !
 interface ethernet3
  description r2@eth3 -> r3@eth3
- vrf forwarding inet
+ vrf forwarding v1
  ipv4 address 2.2.2.1 /24
  ipv6 address 2222::1 /64
  template template1
@@ -50,7 +52,7 @@ interface ethernet3
 !
 interface ethernet2
  description r2@eth2 -> r1@eth2
- vrf forwarding inet
+ vrf forwarding v1
  ipv4 address 1.1.1.2 /24
  ipv6 address 1111::2 /64
  template template1

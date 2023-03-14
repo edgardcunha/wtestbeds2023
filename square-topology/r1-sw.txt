@@ -31,6 +31,7 @@ interface template1
  exit
 !
 int lo0
+ description loopback for ospf
  vrf for inet
  ipv4 addr 20.20.20.1 /32
  ipv6 addr 2020::1 /128

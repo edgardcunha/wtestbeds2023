@@ -23,15 +23,20 @@ interface template1
  ipv4 address dynamic dynamic
  ipv6 address dynamic dynamic
  router ospf4 1 enable
+ router ospf4 1 area 0
  router ospf6 1 enable
+ router ospf6 1 area 0
  shutdown
  no log-link-change
  exit
 !
 int lo0
- vrf for inet
+ description loopback for ospf
+ vrf forwarding inet
  ipv4 addr 20.20.20.4 /32
  ipv6 addr 2020::4 /128
+ template template1
+ no shutdown
  exit
 !
 interface ethernet2

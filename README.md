@@ -128,6 +128,6 @@ The tests were conducted on the FABRIC platform using a Jupyter Notebook. Each n
     <em>Tuning configuration</em>
 </p>
 
-[^1]: BALDIN, Ilya et al. Fabric: A national-scale programmable experimental network infrastructure. IEEE Internet Computing, v. 23, n. 6, p. 38-47, 2019.
+[^1]: BALDIN, Ilya et al. [Fabric: A national-scale programmable experimental network infrastructure](https://ieeexplore.ieee.org/abstract/document/8972790). IEEE Internet Computing, v. 23, n. 6, p. 38-47, 2019.
 [^2]: [https://frrouting.org/](https://frrouting.org/)
 [^3]: [https://iperf.fr/](https://iperf.fr/)

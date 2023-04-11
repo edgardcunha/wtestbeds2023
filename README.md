@@ -83,7 +83,7 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
 
 # Running experiments in FABRIC testbed
 
-The tests were conducted on the FABRIC platform using a Jupyter Notebook. The codes used in the tests can be accessed from the article’s repository on GitHub6. Each node in the platform was equipped with 2 cores, 8 GB of RAM, and 10 GB of disk space. The operating system employed for the tests was Rocky Linux 8.5 (Green Obsidian), while the interfaces used were dedicated NICs “Mellanox ConnectX-5 Dual Port 10/25GbE”. iperf3[^2] (v. 3.5) was used to generate the traffic and measure the throughput.
+The tests were conducted on the FABRIC platform using a Jupyter Notebook. Each node in the platform was equipped with 2 cores, 8 GB of RAM, and 10 GB of disk space. The operating system employed for the tests was Rocky Linux 8.5 (Green Obsidian), while the interfaces used were dedicated NICs “Mellanox ConnectX-5 Dual Port 10/25GbE”. iperf3[^2] (v. 3.5) was used to generate the traffic and measure the throughput.
 
 ## OSPF: failure recover use case
 

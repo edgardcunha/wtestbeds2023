@@ -95,10 +95,17 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
 ## Throughput use case
 
 <p align="center">
-    <img src="assets/fabric_slice_visualization.png" alt="Default OS/NIC config" width="800">
+    <img src="assets/throughput_evaluation_default.svg" alt="Default OS/NIC config" width="800">
 </p>
 <p align="center">
     <em>Default OS/NIC config</em>
+</p>
+
+<p align="center">
+    <img src="assets/throughput_evaluation_tuning.svg" alt="Tuning configuration" width="800">
+</p>
+<p align="center">
+    <em>Tuning configuration</em>
 </p>
 
 # References

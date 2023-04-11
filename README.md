@@ -10,6 +10,10 @@ This repository brings together all the data, and the commands used to generate 
 
 FABRIC testbed [1] has been designed to provide a unique national research infrastructure to enable cutting-edge and exploratory research at-scale in networking.
 
+# Topology of FABRIC Testbed
+
+
+
 # References
 
 [1] BALDIN, Ilya et al. Fabric: A national-scale programmable experimental network infrastructure. IEEE Internet Computing, v. 23, n. 6, p. 38-47, 2019.

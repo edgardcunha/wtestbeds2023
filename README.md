@@ -74,7 +74,7 @@ except Exception as e:
 For the sake of simplicity, a tree-node ring will be here used to demonstrate network dynamic routing reacting to node failure, which was explored in the experiments.
 
 <p>
-    <img src="assets/topology.png" alt="Slice visualization: ring topology connected with dedicated smartnics">
+    <img src="assets/fabric_slice_visualization.png" alt="Slice visualization: ring topology connected with dedicated smartnics">
 </p>
 <p>
     <em>Slice visualization: ring topology connected with dedicated smartnics</em>

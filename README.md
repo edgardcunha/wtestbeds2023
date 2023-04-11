@@ -12,10 +12,10 @@ FABRIC testbed [1] has been designed to provide a unique national research infra
 
 ## Slice definition: requirements and allocation
 
-<p>
+<p align="center">
     <img src="assets/topology.png" alt="Topology of FABRIC Testbed" width="800">
 </p>
-<p>
+<p align="center">
     <em>Topology of FABRIC Testbed</em>
 </p>
 
@@ -72,10 +72,10 @@ except Exception as e:
 
 For the sake of simplicity, a tree-node ring will be here used to demonstrate network dynamic routing reacting to node failure, which was explored in the experiments.
 
-<p>
+<p align="center">
     <img src="assets/fabric_slice_visualization.png" alt="Slice visualization: ring topology connected with dedicated smartnics" width="800">
 </p>
-<p>
+<p align="center">
     <em>Slice visualization: ring topology connected with dedicated smartnics</em>
 </p>
 
@@ -85,19 +85,19 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
 
 ## OSPF: failure recover use case
 
-<p>
+<p align="center">
     <img src="assets/failure_recovery.png" alt="RTT with events of path failure and path recovery" width="800">
 </p>
-<p>
+<p align="center">
     <em>RTT with events of path failure and path recovery</em>
 </p>
 
 ## Throughput use case
 
-<p>
+<p align="center">
     <img src="assets/fabric_slice_visualization.png" alt="Default OS/NIC config" width="800">
 </p>
-<p>
+<p align="center">
     <em>Default OS/NIC config</em>
 </p>
 

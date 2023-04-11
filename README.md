@@ -10,9 +10,15 @@ This repository brings together all the data, and the commands used to generate 
 
 FABRIC testbed [1] has been designed to provide a unique national research infrastructure to enable cutting-edge and exploratory research at-scale in networking.
 
-## Topology of FABRIC Testbed
+## Slice definition: requirements and allocation
 
-![topology](assets/topology.png)
+<p>
+    <img src="assets/topology.png" alt="Topology of FABRIC Testbed">
+</p>
+<p>
+    <em>Topology of FABRIC Testbed</em>
+</p>
+
 
 ## Booking a slice
 

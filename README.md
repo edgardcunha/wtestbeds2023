@@ -8,7 +8,7 @@ This repository brings together all the data, and the commands used to generate 
 
 # FABRIC
 
-FABRIC testbed [1] has been designed to provide a unique national research infrastructure to enable cutting-edge and exploratory research at-scale in networking.
+FABRIC testbed[^1] has been designed to provide a unique national research infrastructure to enable cutting-edge and exploratory research at-scale in networking.
 
 ## Slice definition: requirements and allocation
 
@@ -83,6 +83,8 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
 
 # Running experiments in FABRIC testbed
 
+The tests were conducted on the FABRIC platform using a Jupyter Notebook. The codes used in the tests can be accessed from the article’s repository on GitHub6. Each node in the platform was equipped with 2 cores, 8 GB of RAM, and 10 GB of disk space. The operating system employed for the tests was Rocky Linux 8.5 (Green Obsidian), while the interfaces used were dedicated NICs “Mellanox ConnectX-5 Dual Port 10/25GbE”. iperf3[^2] (v. 3.5) was used to generate the traffic and measure the throughput.
+
 ## OSPF: failure recover use case
 
 <p align="center">
@@ -108,6 +110,5 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
     <em>Tuning configuration</em>
 </p>
 
-# References
-
-[1] BALDIN, Ilya et al. Fabric: A national-scale programmable experimental network infrastructure. IEEE Internet Computing, v. 23, n. 6, p. 38-47, 2019.
+[^1]: BALDIN, Ilya et al. Fabric: A national-scale programmable experimental network infrastructure. IEEE Internet Computing, v. 23, n. 6, p. 38-47, 2019.
+[^2]: https://frrouting.org/

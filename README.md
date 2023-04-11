@@ -86,7 +86,7 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
 ## OSPF: failure recover use case
 
 <p>
-    <img src="assets/fabric_slice_visualization.png" alt="RTT with events of path failure and path recovery" width="800">
+    <img src="assets/failure_recovery.png" alt="RTT with events of path failure and path recovery" width="800">
 </p>
 <p>
     <em>RTT with events of path failure and path recovery</em>

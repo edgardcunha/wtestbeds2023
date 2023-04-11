@@ -19,7 +19,6 @@ FABRIC testbed [1] has been designed to provide a unique national research infra
     <em>Topology of FABRIC Testbed</em>
 </p>
 
-
 ## Booking a slice
 
 To book a slice in FABRIC Testbed and use its metaresearch functionalities, the experimenter needs to import the “FABlib library” (v. 1.4.3) that provides its API primitives. For example, one may query for available testbed resources and settings by using ```fablib.list_sites()``` and then get 3 random sites that are available for experimentation with the command ```fablib.get_random_sites(count=3)```. There is also a geographic location parameter to select sites located between Los Angeles and New York
@@ -82,7 +81,25 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
 
 ## Components configuration and automation
 
+# Running experiments in FABRIC testbed
 
+## OSPF: failure recover use case
+
+<p>
+    <img src="assets/fabric_slice_visualization.png" alt="RTT with events of path failure and path recovery" width="800">
+</p>
+<p>
+    <em>RTT with events of path failure and path recovery</em>
+</p>
+
+## Throughput use case
+
+<p>
+    <img src="assets/fabric_slice_visualization.png" alt="Default OS/NIC config" width="800">
+</p>
+<p>
+    <em>Default OS/NIC config</em>
+</p>
 
 # References
 

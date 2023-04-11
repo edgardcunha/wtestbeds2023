@@ -81,9 +81,27 @@ For the sake of simplicity, a tree-node ring will be here used to demonstrate ne
 
 ## Components configuration and automation
 
+
+
+## Transforming nodes in routers to support routing protocols
+
+Free Range Routing[^2] (a.k.a. FRRouting or FRR), is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP.
+
+By default, the slice has a validity of 24 hours unless renewed. Below, it demonstrates how to delete a slice by name. It is an important practice to delete the slice after the experiments, in order to reduce the idle time of allocated resources.
+
+```python
+# Delete slice by name
+try:
+    slice_name = 'Triangle_Topology'
+    slice = fablib.get_slice(name=slice_name)
+    slice.delete()
+except Exception as e:
+    print(f"Exception: {e}")
+```
+
 # Running experiments in FABRIC testbed
 
-The tests were conducted on the FABRIC platform using a Jupyter Notebook. Each node in the platform was equipped with 2 cores, 8 GB of RAM, and 10 GB of disk space. The operating system employed for the tests was Rocky Linux 8.5 (Green Obsidian), while the interfaces used were dedicated NICs “Mellanox ConnectX-5 Dual Port 10/25GbE”. iperf3[^2] (v. 3.5) was used to generate the traffic and measure the throughput.
+The tests were conducted on the FABRIC platform using a Jupyter Notebook. Each node in the platform was equipped with 2 cores, 8 GB of RAM, and 10 GB of disk space. The operating system employed for the tests was Rocky Linux 8.5 (Green Obsidian), while the interfaces used were dedicated NICs “Mellanox ConnectX-5 Dual Port 10/25GbE”. iperf3[^3] (v. 3.5) was used to generate the traffic and measure the throughput.
 
 ## OSPF: failure recover use case
 
@@ -111,4 +129,5 @@ The tests were conducted on the FABRIC platform using a Jupyter Notebook. Each n
 </p>
 
 [^1]: BALDIN, Ilya et al. Fabric: A national-scale programmable experimental network infrastructure. IEEE Internet Computing, v. 23, n. 6, p. 38-47, 2019.
-[^2]: https://frrouting.org/
+[^2]: [https://frrouting.org/](https://frrouting.org/)
+[^3]: [https://iperf.fr/](https://iperf.fr/)

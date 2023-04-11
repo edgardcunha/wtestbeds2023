@@ -12,7 +12,7 @@ FABRIC testbed [1] has been designed to provide a unique national research infra
 
 # Topology of FABRIC Testbed
 
-
+![topology](assets/topology.png)
 
 # References
 

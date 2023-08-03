@@ -106,7 +106,7 @@ The tests were conducted on the FABRIC platform using a Jupyter Notebook. Each n
 ## OSPF: failure recover use case
 
 <p align="center">
-    <img src="assets/failure_recovery.png" alt="RTT with events of path failure and path recovery" width="800">
+    <img src="assets/failure_recovery.svg" alt="RTT with events of path failure and path recovery" width="800">
 </p>
 <p align="center">
     <em>RTT with events of path failure and path recovery</em>

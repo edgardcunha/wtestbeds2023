@@ -128,6 +128,43 @@ The tests were conducted on the FABRIC platform using a Jupyter Notebook. Each n
     <em>Tuning configuration</em>
 </p>
 
+# How to cite this work?
+
+ABNT:
+
+PONTES, Edgard da Cunha et al. FABRIC Testbed from the Eyes of a Network Researcher. In: WORKSHOP DE TESTBEDS, 2. , 2023, João Pessoa/PB. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2023 . p. 38-49. DOI: https://doi.org/10.5753/wtestbeds.2023.230665.
+
+BibTeX:
+```bibtex
+@inproceedings{wtestbeds,
+ author = {Edgard Pontes and Magnos Martinello and Cristina Dominicini and Marcos Schwarz and Moises Ribeiro and Everson Borges and Italo Brito and Jeronimo Bezerra and Marinho Barcellos},
+ title = {FABRIC Testbed from the Eyes of a Network Researcher},
+ booktitle = {Anais do II Workshop de Testbeds},
+ location = {João Pessoa/PB},
+ year = {2023},
+ keywords = {},
+ issn = {0000-0000},
+ pages = {38--49},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ doi = {10.5753/wtestbeds.2023.230665},
+ url = {https://sol.sbc.org.br/index.php/wtestbeds/article/view/24812}
+}
+```
+
+RefWorks:
+```refworks
+@article{{wtestbeds}{},
+	author = {Pontes, E., Martinello, M., Dominicini, C., Schwarz, M., Ribeiro, M., Borges, E., Brito, I., Bezerra, J., Barcellos, M.},
+	title = {FABRIC Testbed from the Eyes of a Network Researcher},
+	journal = {Anais do Workshop de Testbeds},
+
+	year = {2023},
+	doi = {10.5753/wtestbeds.2023.230665},
+	url = {https://sol.sbc.org.br/index.php/wtestbeds/article/view/24812}
+}
+```
+
 [^1]: BALDIN, Ilya et al. [Fabric: A national-scale programmable experimental network infrastructure](https://ieeexplore.ieee.org/abstract/document/8972790). IEEE Internet Computing, v. 23, n. 6, p. 38-47, 2019.
 [^2]: [https://frrouting.org/](https://frrouting.org/)
 [^3]: [https://iperf.fr/](https://iperf.fr/)

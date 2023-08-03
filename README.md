@@ -1,6 +1,6 @@
 # WTESTBEDS 2023
 
-Official repository for the paper "FABRIC Testbed from the Eyes of a Network Researcher" to WTESTBEDS 2023 - 2º Workshop de Testbeds
+Official repository for the paper "[FABRIC Testbed from the Eyes of a Network Researcher](https://doi.org/10.5753/wtestbeds.2023.230665)" to [WTESTBEDS 2023 - 2º Workshop de Testbeds](https://csbc.sbc.org.br/2023/wtestbeds/).
 
 # Overview
 

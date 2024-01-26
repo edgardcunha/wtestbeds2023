@@ -4,7 +4,7 @@ Official repository for the paper "[FABRIC Testbed from the Eyes of a Network Re
 
 # Overview
 
-This repository brings together all the data, and the commands used to generate this data, demonstrated in the article "FABRIC Testbed from the Eyes of a Network Researcher" sent to WTESTBEDS 2023 - 2st Testbeds Workshop.
+This repository serves as a comprehensive archive of the data and associated command scripts presented in the article "FABRIC Testbed from the Eyes of a Network Researcher," originally submitted to the  WTESTBEDS 2023 - 2nd Testbeds Workshop.
 
 # FABRIC
 
